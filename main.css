@@ -8,11 +8,12 @@ body{
     background-color:hwb(246 27% 0%);
 }
 header{
+    height:auto;
     padding: 10px;
     display: flex;
-    height:auto;
+    align-items: center;
     background-color: black;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 header > section{
     color: white;
@@ -37,9 +38,10 @@ header > #painel{
 
 }
 header > #painel > div{
+    border-radius: 2px;
     display: flex;
-    height: 40px;
-    width: 100px;
+    height: 37px;
+    width: 80px;
     margin-left: 10px;
     font-weight: bolder;
     color: white;
@@ -99,7 +101,7 @@ header > #painel > div > p:active{
     cursor: pointer;
     border-radius: 5px;
     font-weight: bolder;
-    background-color: blue;
+    background-color:blue;
     
 }
 #btn-pesquisar:hover{
@@ -117,7 +119,7 @@ header > #painel > div > p:active{
     background-color: hsl(240, 100%, 95%);
 }
 #iten-pesquisa > input{
-    margin:1px;
+    margin:2px;
     border: 0;
     width: 97%;
     height: 90%;
@@ -149,7 +151,6 @@ header > #painel > div > p:active{
     }
     header{
         display: flex;
-        justify-content: space-between;
     }
     header > section#title{
         display: none;
@@ -181,11 +182,6 @@ header > #painel > div > p:active{
 @media screen and (min-width:600px){
     #imagens{
         background-image: url('./img/undraw_online_test_re_kyfx.svg');
-    }
-    header{
-        align-items: center;
-        justify-content: space-between;
-
     }
     header section#title{
         display: flex;

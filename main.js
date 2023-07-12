@@ -1,7 +1,7 @@
 let array = ['Node js','Java-Script','Mysql','React'];
 let array1 = document.getElementById('array');
 let cursos = array.map((el)=>{
-    return `Curso ${el}`
+    return `Curso ${el}   `
 })
 array1.firstElementChild.innerHTML=cursos
 const result = document.getElementById("res");
@@ -23,7 +23,7 @@ elementos_pesquisar.map((e,i,a)=>{
             })
             if(verificar == false){
                 const el = result.firstElementChild;
-                el.style.color='red'
+                el.style.color=' #ff4343'
                 el.innerHTML='Elemento não encontrado'
                 el.style.textShadow='1px .8px 0px black'
 
